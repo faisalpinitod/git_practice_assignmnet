@@ -1,10 +1,10 @@
 var str="naman";
 var bag="";
-for(i=0;i<str.length;i++){
+for(i=str.length-1;i>=0;i--){
 	bag+=str[i];
 }
 if(str==bag){
-	console.log(True);
+	console.log(true);
 }else{
 	console.log(false);
 }
