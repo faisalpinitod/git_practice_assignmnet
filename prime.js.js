@@ -6,7 +6,7 @@ for(i=1;i<=a;i++){
     }
 }
 if(flag==2){
-    console.log("Prime Number");
+    print("Prime Number");
 }else{
     console.log("Not Prime Number");
 }
